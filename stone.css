@@ -1,0 +1,72 @@
+body{
+    background-color: #3F826D;
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    margin-top: 0px;
+    height: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.255);
+
+}
+#maindiv{
+   
+    height: 250px;
+    width:900px;
+    margin-left: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+.rock,.paper,.scissor{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.choice:hover{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+cursor: pointer;
+}
+
+#scoresdiv{
+margin-top: 80px;
+height: 100px;
+width:500px;
+margin-left:430px;
+display: flex;
+justify-content:space-evenly;
+}
+#user,#comp{
+height:50px;
+width:180px;
+border:none;
+border-radius: 10px;
+background-color:white;
+color: black;
+font-size: larger;
+font-weight: 600;
+text-align: center;
+
+}
+
+button{
+background-color: black;
+color: aliceblue;
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+border: none;
+border-radius: 5px;
+margin-left:650px;
+}
